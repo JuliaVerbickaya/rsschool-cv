@@ -1,1 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
+body {
+max-width: 1400px;
+background-color: rgb(255, 255, 255);
+margin: 0 auto;
+}
+
+.header {
+height: 60px;
+background-color: black;
+display: flex;
+}
+
+.nav {
+display: flex;
+margin: 0 -5px;
+}
+
+.navlink {
+flex: 1 1 auto;
+margin: 18px 39px;
+color: aliceblue;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 18px;
+}
+
+.navlink:hover, .navlink:focus, .navlink:active {
+    opacity: 75%;
+}
+
+
+.title {
+margin: 40px 160px;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 50px;
+color: black;
+}
+
+.information {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-around;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: black;  
+    background-color: rgb(234, 234, 234);
+}
+
+.contacts_name {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+.contacts_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);  
+}
+
+.aboutme {
+margin: 60px 0;
+padding-left: 10px;
+border-style: dotted;
+border-width: 3px;
+border-color: black;  
+background-color: rgb(254, 238, 221);
+}
+
+.aboutme_name {
+    margin: 0 550px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+.aboutme_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: black;  
+}
+
+.education {
+ margin: 60px 0; 
+ border-style: dotted;
+border-width: 3px;
+border-color: black;  
+background-color: rgb(251, 224, 240);
+}
+
+.education_name {
+    margin: 0 550px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+.education_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: black;   
+}
+
+.hardskills {
+    margin: 60px 0; 
+    border-style: dotted;
+   border-width: 3px;
+   border-color: black;  
+   background-color: rgb(239, 252, 225);  
+}
+
+.hardskills_name {
+    margin: 0 550px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;   
+}
+
+.hardskills_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: black;    
+}
+
+.workexperience {
+    margin: 60px 0; 
+    border-style: dotted;
+   border-width: 3px;
+   border-color: black;  
+   background-color: rgb(232, 230, 255);   
+}
+
+.workexperience_name {
+    margin: 0 540px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;       
+}
+
+.workexperience_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: black;      
+}
+
+.codeexample {
+    margin: 60px 0; 
+    border-style: dotted;
+   border-width: 3px;
+   border-color: black;  
+   background-color: rgb(255, 225, 226);   
+}
+
+.codeexample_name {
+    margin: 0 540px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;     
+}
+
+.codeexample_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+}
+
+.examples {
+    margin: 60px 0; 
+    border-style: dotted;
+   border-width: 3px;
+   border-color: black;  
+   background-color: rgb(225, 246, 255);     
+}
+
+.examples_name {
+    margin: 0 540px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;      
+}
+
+.examples_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: black; 
+    padding-left: 10px;
+}
+
+.languages {
+    margin: 60px 0; 
+    border-style: dotted;
+   border-width: 3px;
+   border-color: black;  
+   background-color: rgb(240, 231, 253);        
+}
+
+.language_name {
+    margin: 0 540px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    color: black;   
+}
+
+.language_information {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    color: black; 
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    background-color: rgb(88, 88, 88);
+}
+
+.footer_information {
+    color: aliceblue;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    margin: 15px 170px;
+}
