@@ -60,6 +60,11 @@ color: black;
     color: rgb(0, 0, 0);  
 }
 
+.photo {
+    height: 300px;
+    width: 270px;
+}
+
 .aboutme {
 margin: 60px 0;
 padding-left: 10px;
