@@ -383,6 +383,11 @@ margin-left: 290px;
 margin-top: 5px;
 }
 
+.gardeners_button:hover, .gardeners_button:focus, .gardeners_button:active {
+    background-color: #E06733;
+    color: #ffffff;
+}
+
 .gardeners_img {
     margin-left: 293px;
     margin-top: 33px;
